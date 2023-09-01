@@ -69,18 +69,30 @@ if(numLena==1){
     }
     if(numLena==1){
         var mark1 = +prompt('ENETR YOUR'+' '+ name1 +' '+ 'MARKS')
-        
+        totsl=mark1
+        var perc = (totsl / 100) * 100
+        document.write('YOUR TOTAL MARK IS'+' '+totsl+'<br>'+'AND YOUR PERCENTAGE IS'+' '+perc.toFixed(2)+'%')
+ 
+
     }
     else if(numLena==2){
         var mark1 = +prompt('ENETR YOUR'+' '+ name1 +' '+ 'MARKS')
         var mark2 = +prompt('ENETR YOUR'+' '+ name2 +' '+ 'MARKS')
-    
+        totsl=mark1+mark2
+
+        var perc = (totsl / 200) * 100
+        document.write('YOUR TOTAL MARK IS'+' '+totsl+'<br>'+'AND YOUR PERCENTAGE IS'+' '+perc.toFixed(2)+'%')
+ 
     }
     else if(numLena==3){
         var mark1 = +prompt('ENETR YOUR'+' '+ name1 +' '+ 'MARKS')
         var mark2 = +prompt('ENETR YOUR'+' '+ name2 +' '+ 'MARKS')
         var mark3 = +prompt('ENETR YOUR'+' '+ name3 +' '+ 'MARKS')
-        
+        totsl=mark1+mark2+mark3
+
+        var perc = (totsl / 300) * 100
+        document.write('YOUR TOTAL MARK IS'+' '+totsl+'<br>'+'AND YOUR PERCENTAGE IS'+' '+perc.toFixed(2)+'%')
+ 
     }
     else if(numLena==4){
         var mark1 = +prompt('ENETR YOUR'+' '+ name1 +' '+ 'MARKS')
@@ -88,7 +100,11 @@ if(numLena==1){
         var mark3 = +prompt('ENETR YOUR'+' '+ name3 +' '+ 'MARKS')
     
         var mark4 = +prompt('ENETR YOUR'+' '+ name4 +' '+ 'MARKS')
-        
+        totsl=mark1+mark2+mark3+mark4
+
+        var perc = (totsl / 400) * 100
+        document.write('YOUR TOTAL MARK IS'+' '+totsl+'<br>'+'AND YOUR PERCENTAGE IS'+' '+perc.toFixed(2)+'%')
+ 
     }
     else if(numLena==5){
         var mark1 = +prompt('ENETR YOUR'+' '+ name1 +' '+ 'MARKS')
@@ -98,7 +114,11 @@ if(numLena==1){
         var mark4 = +prompt('ENETR YOUR'+' '+ name4 +' '+ 'MARKS')
         
         var mark5 = +prompt('ENETR YOUR'+' '+ name5 +' '+ 'MARKS')
-       
+        totsl=mark1+mark2+mark3+mark4+mark5
+
+        var perc = (totsl / 500) * 100
+        document.write('YOUR TOTAL MARK IS'+' '+totsl+'<br>'+'AND YOUR PERCENTAGE IS'+' '+perc.toFixed(2)+'%')
+ 
     }
     else if(numLena==6){
         var mark1 = +prompt('ENETR YOUR'+' '+ name1 +' '+ 'MARKS')
@@ -109,7 +129,11 @@ if(numLena==1){
         
         var mark5 = +prompt('ENETR YOUR'+' '+ name5 +' '+ 'MARKS')
         var mark6 = +prompt('ENETR YOUR'+' '+ name6 +' '+ 'MARKS')
-        
+        totsl=mark1+mark2+mark3+mark4+mark5+mark6
+
+        var perc = (totsl / 600) * 100
+        document.write('YOUR TOTAL MARK IS'+' '+totsl+'<br>'+'AND YOUR PERCENTAGE IS'+' '+perc.toFixed(2)+'%')
+ 
     }
     else if(numLena==7){
         var mark1 = +prompt('ENETR YOUR'+' '+ name1 +' '+ 'MARKS')
@@ -121,7 +145,11 @@ if(numLena==1){
         var mark5 = +prompt('ENETR YOUR'+' '+ name5 +' '+ 'MARKS')
         var mark6 = +prompt('ENETR YOUR'+' '+ name6 +' '+ 'MARKS')
         var mark7 = +prompt('ENETR YOUR'+' '+ name7 +' '+ 'MARKS')
-       
+        totsl=mark1+mark2+mark3+mark4+mark5+mark6+mark7
+
+        var perc = (totsl / 700) * 100
+        document.write('YOUR TOTAL MARK IS'+' '+totsl+'<br>'+'AND YOUR PERCENTAGE IS'+' '+perc.toFixed(2)+'%')
+ 
     }
     else if(numLena==8){
         var mark1 = +prompt('ENETR YOUR'+' '+ name1 +' '+ 'MARKS')
@@ -134,6 +162,11 @@ if(numLena==1){
         var mark6 = +prompt('ENETR YOUR'+' '+ name6 +' '+ 'MARKS')
         var mark7 = +prompt('ENETR YOUR'+' '+ name7 +' '+ 'MARKS')
         var mark8 = +prompt('ENETR YOUR'+' '+ name8 +' '+ 'MARKS')
+        totsl=mark1+mark2+mark3+mark4+mark5+mark6+mark7+mark8
+
+        var perc = (totsl / 800) * 100
+        document.write('YOUR TOTAL MARK IS'+' '+totsl+'<br>'+'AND YOUR PERCENTAGE IS'+' '+perc.toFixed(2)+'%')
+ 
     }
     else if(numLena==9){
         var mark1 = +prompt('ENETR YOUR'+' '+ name1 +' '+ 'MARKS')
@@ -147,16 +180,15 @@ if(numLena==1){
         var mark7 = +prompt('ENETR YOUR'+' '+ name7 +' '+ 'MARKS')
         var mark8 = +prompt('ENETR YOUR'+' '+ name8 +' '+ 'MARKS')
         var mark9 = +prompt('ENETR YOUR'+' '+ name9 +' '+ 'MARKS')
+        totsl=mark1+mark2+mark3+mark4+mark5+mark6+mark7+mark8+mark9
+
+        var perc = (totsl / 900) * 100
+        document.write('YOUR TOTAL MARK IS'+' '+totsl+'<br>'+'AND YOUR PERCENTAGE IS'+' '+perc.toFixed(2)+'%')
+ 
     }
     else{
         console.log('abc')
     }
-var totsl =numLena
-var total = +prompt('3 SUBJECT KE TOTAL MARK DALO DEKO AGR 1 SUB KE 100 HAIN TO 3 KE 300 DALOOO')
-var perc = (totsl / 300) * 100 
- document.write('YOUR TOTAL MARKS OF ALL SUBJECT IS'+' '+ totsl+' '+'OUT OF'+' '+total+' '+'AND YOUR PERCENTAGE IS')
-var perc = (numLena / 300) * 100 
- document.write('YOUR TOTAL MARKS OF ALL SUBJECT IS'+' '+numLena+' '+'OUT OF'+' '+total+' '+'AND YOUR PERCENTAGE IS'
- +' '+perc.toFixed(2)+"%"+ ' '+ 'OUT OF 100%')
+
 
 // 
